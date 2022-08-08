@@ -31,6 +31,7 @@ import android.view.ViewGroup
 import androidx.appcompat.app.AlertDialog
 import androidx.compose.animation.AnimatedVisibility
 import androidx.compose.foundation.BorderStroke
+import androidx.compose.foundation.background
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.Column
@@ -164,8 +165,9 @@ class AppSheet(val appInfo: Package) : BaseSheet(), ActionListener {
                 darkTheme = isSystemInDarkTheme()
             ) {
                 Scaffold(
-                    containerColor = Color.Transparent,
-                    contentColor = MaterialTheme.colorScheme.onBackground,
+                    modifier = Modifier.background(color = Color.Transparent),
+                    //containerColor = Color.Transparent,
+                    //contentColor = MaterialTheme.colorScheme.onBackground,
                     bottomBar = {
 
                     },

@@ -21,9 +21,11 @@ import android.os.Bundle
 import androidx.activity.compose.setContent
 import androidx.activity.viewModels
 import androidx.compose.animation.ExperimentalAnimationApi
+import androidx.compose.foundation.background
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.padding
 import androidx.compose.material3.ExperimentalMaterial3Api
+import androidx.compose.material3.MaterialTheme
 import androidx.compose.material3.Scaffold
 import androidx.compose.ui.Modifier
 import androidx.compose.ui.graphics.Color
@@ -65,7 +67,9 @@ class PrefsActivityX : BaseActivity() {
                 val navController = rememberAnimatedNavController()
 
                 Scaffold(
-                    containerColor = Color.Transparent,
+                    modifier = Modifier.background(color = Color.Transparent),
+                    //containerColor = Color.Transparent,
+                    //contentColor = MaterialTheme.colorScheme.onBackground,
                     topBar = {
                         TopBar(
                             title = title.toString()

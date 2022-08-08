@@ -219,7 +219,8 @@ class HomeFragment : NavigationFragment(),
             darkTheme = isSystemInDarkTheme()
         ) {
             Scaffold(
-                containerColor = Color.Transparent,
+                modifier = Modifier.background(color = Color.Transparent),
+                //containerColor = Color.Transparent,
                 topBar = {
                     TopBar(title = stringResource(id = R.string.main)) {
                         ExpandableSearchAction(

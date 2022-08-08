@@ -3,6 +3,7 @@ package com.machiav3lli.backup.preferences
 import android.content.Context
 import android.content.DialogInterface
 import androidx.appcompat.app.AlertDialog
+import androidx.compose.foundation.background
 import androidx.compose.foundation.isSystemInDarkTheme
 import androidx.compose.foundation.layout.Arrangement
 import androidx.compose.foundation.layout.PaddingValues
@@ -73,7 +74,8 @@ fun ToolsPrefsPage(navController: NavHostController) {
         darkTheme = isSystemInDarkTheme()
     ) {
         Scaffold(
-            containerColor = Color.Transparent,
+            modifier = Modifier.background(color = Color.Transparent),
+            //containerColor = Color.Transparent,
             snackbarHost = { SnackbarHost(snackbarHostState) }
         ) {
             LazyColumn(

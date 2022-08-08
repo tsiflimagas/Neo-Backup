@@ -276,8 +276,9 @@ class ScheduleSheet(private val scheduleId: Long) : BaseSheet() {
         ) {
             schedule?.let {
                 Scaffold(
-                    containerColor = Color.Transparent,
-                    contentColor = MaterialTheme.colorScheme.onBackground,
+                    modifier = Modifier.background(color = Color.Transparent),
+                    //containerColor = Color.Transparent,
+                    //contentColor = MaterialTheme.colorScheme.onBackground,
                     bottomBar = {
                         Column(
                             modifier = Modifier

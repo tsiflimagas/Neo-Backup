@@ -92,8 +92,9 @@ class SortFilterSheet(
         ) {
             mSortFilterModel.let {
                 Scaffold(
-                    containerColor = Color.Transparent,
-                    contentColor = MaterialTheme.colorScheme.onBackground,
+                    modifier = Modifier.background(color = Color.Transparent),
+                    //containerColor = Color.Transparent,
+                    //contentColor = MaterialTheme.colorScheme.onBackground,
                     bottomBar = {
                         Row(
                             modifier = Modifier

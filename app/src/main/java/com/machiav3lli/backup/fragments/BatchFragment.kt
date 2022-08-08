@@ -203,7 +203,8 @@ open class BatchFragment(private val backupBoolean: Boolean) : NavigationFragmen
             darkTheme = isSystemInDarkTheme()
         ) {
             Scaffold(
-                containerColor = Color.Transparent,
+                modifier = Modifier.background(color = Color.Transparent),
+                //containerColor = Color.Transparent,
                 topBar = {
                     TopBar(
                         title = stringResource(id = if (backupBoolean) R.string.backup else R.string.restore)
