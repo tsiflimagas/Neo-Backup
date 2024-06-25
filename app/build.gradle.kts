@@ -20,26 +20,26 @@ import com.android.build.gradle.internal.tasks.factory.dependsOn
 plugins {
     id("com.android.application")
     kotlin("android")
-    kotlin("plugin.serialization").version("1.9.24")
-    id("com.google.devtools.ksp") version ("1.9.24-1.0.20")
+    kotlin("plugin.serialization").version("1.9.22")
+    id("com.google.devtools.ksp") version ("1.9.22-1.0.18")
 }
 
-val vActivity = "1.9.0"
+val vActivity = "1.8.2"
 val vAccompanist = "0.34.0"
 val vBiometric = "1.2.0-alpha05"
 val vCoil = "2.6.0"
-val vCommonsCompress = "1.26.2"
-val vCommonsIO = "2.16.1"
-val vComposeCompiler = "1.5.14"
-val vCompose = "1.6.8"
+val vCommonsCompress = "1.26.1"
+val vCommonsIO = "2.15.1"
+val vComposeCompiler = "1.5.10"
+val vCompose = "1.6.3"
 val vComposeM3 = "1.2.1"
-val vDatastore = "1.1.1"
-val vKAML = "0.60.0"
-val vKotlin = "1.9.24"
-val vKSP = "1.0.20"
-val vLibsu = "5.3.0"
-val vLifecycle = "2.8.2"
-val vMaterial = "1.12.0"
+val vDatastore = "1.0.0"
+val vKAML = "0.57.0"
+val vKotlin = "1.9.22"
+val vKSP = "1.0.18"
+val vLibsu = "5.2.2"
+val vLifecycle = "2.7.0"
+val vMaterial = "1.11.0"
 val vNavigation = "2.7.7"
 val vPreference = "1.2.1"
 val vRoom = "2.6.1"
@@ -48,7 +48,7 @@ val vSemVer = "4.2.1"
 val vSerialization = "1.6.3"
 val vTimber = "5.0.1"
 val vWork = "2.9.0"
-val vZstdJni = "1.5.6-3@aar"
+val vZstdJni = "1.5.5-11@aar"
 
 val vTest = "1.5.0"
 val vTestRules = "1.5.0"
