@@ -2,14 +2,14 @@
 
 activity = "1.9.3"
 agp = "8.7.3"
-biometric = "1.2.0-alpha05"
+biometric = "1.4.0-alpha02"
 coil = "2.7.0"
 commons-compress = "1.27.1"
 commons-io = "2.18.0"
 compose = "1.7.6"
 compose-bom = "2024.12.01"
 compose-accompanist = "0.37.0"
-compose-markdown = "0.5.0"
+compose-markdown = "0.5.4"
 coroutines = "1.9.0"
 datastore = "1.1.1"
 immutables = "0.3.8"
@@ -32,7 +32,7 @@ test-rules = "1.6.1"
 test-ext = "1.2.1"
 timber = "5.0.1"
 work = "2.10.0"
-zstd-jni = "1.5.6-4"
+zstd-jni = "1.5.6-8"
 
 ######################################## hg42
 

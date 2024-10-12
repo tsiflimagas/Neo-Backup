@@ -37,7 +37,7 @@ android {
     defaultConfig {
         applicationId = "com.machiav3lli.backup"
         minSdk = 26
-        targetSdk = 34
+        targetSdk = 35
         versionCode = 8320
         versionName = "8.3.10"
         buildConfigField("int", "MAJOR", "8")
